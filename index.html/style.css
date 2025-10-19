@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    text-align: center; /* centering the  elements */
+    background: rgb(226, 98, 81);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(206, 34, 34);
+    border-width: 8px;
+    width: 450px;
+    max-width: 90%;
+}
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 20px;
+    background-color: #1a57b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    display: inline-block; /* Allows centering with margin */
+    margin: 10px auto; /* Centers horizontally */
+}
+button:hover {
+    background-color: #29719b;
+}
+#welcomeMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #1332be;
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 250px;
+    }
+}
+
+#doneBtn {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #1a57b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 30%; /* Reduced from 50% to make it smaller */
+    padding: 10px 20px; /* Match submit padding */
+    display: none; /* Hide by default */
+    margin: 10px auto; /* Centers horizontally below submit */
+    text-decoration: none; /* Remove underline for link */
+}
+
+.eh {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    /* Removed display: flex and positioning for proper centering */
+}

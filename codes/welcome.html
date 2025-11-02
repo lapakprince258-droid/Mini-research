@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="welcome.css"> <!-- Link to CSS -->
+</head>
+<body id="body1">
+    <div id="container">
+        <h1>Welcome</h1>
+        <h5>Please enter your name:</h5>
+        
+        <form id="nameForm">
+            <input type="text" id="nameInput" placeholder="Your name" autocomplete="off" required>
+            <button type="submit" id="bn" class="btn">Submit</button>
+            <div id="welcomeMessage"></div>
+            <a href="main.html" id="doneBtn"  class="btn" style="display: none;">Yes</a> <!-- Hidden initially -->
+        </form>
+    </div>
+    <script src="welcome.js"></script> <!-- Link to JS -->
+</body>
+</html>

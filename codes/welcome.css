@@ -1,0 +1,140 @@
+/* Basic reset for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling: light background, centered content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+
+/* Container: white box with shadow */
+#container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(102, 50, 50);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h5 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Paragraphs and sections */
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.div2 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Code blocks */
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 10px 0;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+/* Form elements */
+#nameForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#nameInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#codeInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+}
+
+/* Buttons and links */
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Output area */
+#output {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e8f5e8;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    min-height: 20px;
+}
+
+#bn{
+    width: 20%;
+}
+
+#doneBtn{
+    width: 20%;
+   margin: auto;
+    
+}

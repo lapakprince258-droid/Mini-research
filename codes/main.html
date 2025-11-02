@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Python Basics</title>
+    <link rel="stylesheet" href="welcome.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <div id="container">
+        <h1>Learn Basic Python</h1>
+        <p>Welcome! Let's start with the basics. Python is a simple programming language. We'll learn about <code>print</code> first.</p>
+        
+        <div class="div2">
+            <h2>What is <code>print</code>?</h2>
+            <p><code>print</code> is a function that shows text on the screen. It's like saying "Hello!" to the computer.</p>
+            <p>Example code:</p>
+            <pre><code>print("Hello, World!")</code></pre>
+            <p>Output: Hello, World!</p>
+        </div>
+        
+        <div class="div2">
+            <h2>Try It Yourself</h2>
+            <p>Type some code below and click "Run" to see what it does (this is simulated for learning).</p>
+            <textarea id="codeInput" rows="4" placeholder="Try: print('Your name here')"></textarea>
+            <button id="runBtn" class="btn">Run Code</button>
+            <div id="output"></div>
+        </div>
+        
+        <div class="div2">
+            <h2>More Basics</h2>
+            <p>You can print numbers too:</p>
+            <pre><code>print(42)</code></pre>
+            <p>Output: 42</p>
+            <p>Or combine text and numbers:</p>
+            <pre><code>print("I am", 25, "years old")</code></pre>
+            <p>Output: I am 25 years old</p>
+        </div>
+        
+        <!-- NEW div: Variables -->
+        <div class="div2">
+            <h2>What are Variables?</h2>
+            <p>A variable is like a box where you can store information (like a name or number). You give it a name and assign a value using <code>=</code>.</p>
+            <p>Example:</p>
+            <pre><code>name = "Alice"
+age = 30
+print("My name is", name, "and I am", age, "years old")</code></pre>
+            <p>Output is My name is Alice and I am 30 years old</p>
+            <p>You can change the value later:</p>
+            <pre><code>name = "Bob"
+print(name)</code></pre>
+            <p>Output: Bob</p>
+        </div class="div2">
+        
+        <div class="div2">
+            <h2>Try Variables Yourself</h2>
+            <p>Type a variable assignment and a print below (e.g., <code>my_var = "Hello"</code> then <code>print(my_var)</code> on a new line). Click "Run" to see the output.</p>
+            <textarea id="varCodeInput" rows="6" placeholder="Try:
+my_name = 'Your Name'
+print(my_name)"></textarea>
+            <button id="runVarBtn" class="btn">Run Variable Code</button>
+            <div id="varOutput"></div>
+        </div>
+        
+        <a href="index.html" class="btn">Back to Welcome</a>
+    </div>
+    <script src="welcome.js"></script> <!-- Link to JS -->
+</body>
+</html>
